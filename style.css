@@ -1,9 +1,5 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-::selection {
-   background-color: green;
-}
-
 body {
   font-family: "Noto Sans KR", sans-serif !important;
   height:95%;
