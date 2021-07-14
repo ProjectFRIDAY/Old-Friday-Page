@@ -1,2 +1,2 @@
 # Friday-Page
-임시 웹사이트
+https://projectfriday.github.io/Friday-Page/
