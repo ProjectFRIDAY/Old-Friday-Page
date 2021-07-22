@@ -1,5 +1,5 @@
 // ===== 여기 부분만 수정하기
-// 순서대로 동혁, 동연, 민규, 현준
+// 순서대로 동혁, 동연, 민규, 현준, 화준
 // ["이름", "스터디 목표", "프로젝트 개선 사항", "수행 여부", "비고"]
 // "" 안에 HTML 태그 써도 적용됨.
 
@@ -31,6 +31,13 @@ const hj_contents = [
     ["최현준", "", "", "❌", ""],
     ["최현준", "", "", "❌", ""]];
 
+const hwaj_contents = [
+    ["이화준", "7월 21일 기준 수능 120일 남음", "120일", "💬", ""],
+    ["이화준", "", "", "❌", ""],
+    ["이화준", "", "", "❌", ""],
+    ["이화준", "", "", "❌", ""],
+    ["이화준", "", "", "❌", ""]];
+
 // ===== 여기까지 수정부분
 
 const dates = ["✍ 7월 셋째주 (7/19 ~ 7/25)", "✍ 7월 넷째주 (7/26 ~ 8/01)", "✍ 8월 첫째주 (8/02 ~ 8/08)", "✍ 8월 둘째주 (8/09 ~ 8/15)", "✍ 8월 셋째주 (8/16 ~ 8/22)"];
@@ -41,6 +48,7 @@ var dh = document.getElementById("dh");
 var dy = document.getElementById("dy");
 var mg = document.getElementById("mg");
 var hj = document.getElementById("hj");
+var hwaj = document.getElementById("hwaj");
 var left = document.getElementById("left");
 var right = document.getElementById("right");
 
@@ -78,8 +86,10 @@ function setPage(){
     dy.innerHTML = format(inText, dy_contents[index]);
     mg.innerHTML = format(inText, mg_contents[index]);
     hj.innerHTML = format(inText, hj_contents[index]);
+	 hwaj.innerHTML = format(inText, hwaj_contents[index]);
     
     date.innerText = dates[index];
+
 }
 
 left.addEventListener('click', function() {
