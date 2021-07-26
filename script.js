@@ -26,7 +26,7 @@ const mg_contents = [
 
 const hj_contents = [
     ["최현준", "'C Programming' 1일 1챕터 학습<br/>POCU 공학용 수학 몰아 듣기<br/>노마드 코더 자바스크립트 기초 파트 수강<br/>Andrew Ng AI 강의 4주치 몰아 듣기", "[TEXTI] HTML 코드에서 난잡한 부분 CSS, JS 파일로 분리", "❌", ""],
-    ["최현준", "C++ 알고리즘 문제 1일 2문제 풀기<br/>Andrew Ng AI 강의 4주치 수강'C Programming' 학습<br/>노마드 코더 SCSS 수강<br/>정보처리기능사 자격증 Part1 학습", "미정", "💬", ""],
+    ["최현준", "C++ 알고리즘 문제 1일 2문제 풀기<br/>Andrew Ng AI 강의 4주치 수강<br/>'C Programming' 학습<br/>노마드 코더 SCSS 수강<br/>정보처리기능사 자격증 Part1 학습", "미정", "💬", ""],
     ["최현준", "", "", "❌", ""],
     ["최현준", "", "", "❌", ""],
     ["최현준", "", "", "❌", ""]];
