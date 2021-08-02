@@ -17,9 +17,9 @@ const dh_contents = [
     ["김동혁", "", "", FAIL_SIGN, ""]]; // 8월 셋째주
 
 const dy_contents = [
-    ["김동연", "JS 학습 (script 태그 ~ 문자열)", "?", UNDEFINED_SIGN, ""],
-    ["김동연", "?", "?", UNDEFINED_SIGN, ""],
-    ["김동연", "", "", UNDEFINED_SIGN, ""],
+    ["김동연", "JS 학습 (script 태그 ~ 문자열)", "-", FAIL_SIGN, "벌금 미수납"],
+    ["김동연", "자바스크립트 강의 3개수강", "구름IDE 대체할 공유 코딩 환경 조사", SUCCESS_SIGN, ""],
+    ["김동연", "자바스크립트 강의 3개 수강", "[TEXTI] 지속적 서버 운영 방안 찾기", UNDEFINED_SIGN, ""],
     ["김동연", "", "", FAIL_SIGN, ""],
     ["김동연", "", "", FAIL_SIGN, ""]];
 
