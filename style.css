@@ -3,10 +3,11 @@
 body {
   font-family: "Noto Sans KR", sans-serif !important;
   height:95%;
+  margin: 0;
 }
 
 html {
-  height:95%;
+    height:95%;
 }
 
 .title {
@@ -45,7 +46,7 @@ html {
 }
 
 .btn {
-    font-size: 30px;
+    font-size: 50px;
     background-color: transparent;
     border: 0px;
     transition: all ease 0.3s;
@@ -64,4 +65,14 @@ html {
 .txt:hover {
     color: red;
     font-weight: bold;
+}
+
+.last_page {
+   color: gray;
+}
+
+.control_box {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
