@@ -5,7 +5,7 @@
 
 const FAIL_SIGN = "❌";
 const UNDEFINED_SIGN = "💬";
-const SUCCESS_SIGN = "✔";
+const SUCCESS_SIGN = "✅";
 const PAGE_COUNT = 5;
 let current = 3;
 
