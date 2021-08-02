@@ -54,8 +54,7 @@ function init(){
     let date = new Date();
     let month = date.getMonth();
     let day = date.getDate();
-    console.warn(month);
-    if(month < 8){
+    if(month < 7){
         if(day < 26) index = 0;
         else index = 1;
     }else{
