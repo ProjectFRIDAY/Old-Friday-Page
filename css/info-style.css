@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
 body {
     margin: 0;
     -ms-overflow-style: none;
@@ -14,6 +16,7 @@ body::-webkit-scrollbar {
 }
 
 .title {
+    font-family: "Orbitron", sans-serif !important;
     display: flex;
     justify-content: center;
     align-items: center;
