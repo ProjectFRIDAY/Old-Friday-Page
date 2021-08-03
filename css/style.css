@@ -10,19 +10,30 @@ html {
     height:95%;
 }
 
-.title {
-	font-weight: bold;
-	font-size: 50px;
-   text-align: center;
-   background-color: black;
-   color: white;
-   display: table-cell; vertical-align: middle;
+.banner {
+   width: 100vw;
+   height: 13%;
+   display: grid;
+   background-color: rgb(20, 20, 20);
+   grid-template-columns: 2vw 90vw 10vw 2vw;
+   align-content: center;
 }
 
-.banner {
-   width: 100%;
-   height: 15%;
-   display: table;
+.title {
+	font-weight: 600;
+	font-size: 8vmin;
+   color: white;
+   justify-self: left;
+   font-family: "Bebas Neue";
+}
+
+.about {
+   justify-self: center;
+   align-self: center;
+   color: white;
+   font-size: 1.5vmax;
+   text-decoration:none;
+   font-family: "Bebas Neue";
 }
 
 .main {
@@ -63,7 +74,7 @@ html {
     transition: all ease 0.3s;
 }
 .txt:hover {
-    color: red;
+    color: orangered;
     font-weight: bold;
 }
 
@@ -75,4 +86,34 @@ html {
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+td:nth-child(1) {
+   width: 10vmin;
+   font-size: 3vmin;
+}
+
+td:nth-child(2) {   
+   width: 30vmin;
+   font-size: 3vmin;
+}
+
+td:nth-child(3) {   
+   width: 30vmin;
+   font-size: 3vmin;
+}
+
+td:nth-child(4) {   
+   width: 6vmin;
+   font-size: 3vmin;
+}
+
+td:nth-child(5) {   
+   width: 20vmin;
+   font-size: 3vmin;
+}
+
+.column-name {
+   color: gray;
+   font-size: 3vmin;
 }
