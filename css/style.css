@@ -22,7 +22,7 @@ html {
    height: 13%;
    display: grid;
    background-color: rgb(20, 20, 20);
-   grid-template-columns: 2vw 90vw 10vw 2vw;
+   grid-template-columns: 2vw 90vw 8vw;
    align-content: center;
 }
 
