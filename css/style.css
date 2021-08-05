@@ -5,6 +5,12 @@ body {
   font-family: "Noto Sans KR", sans-serif !important;
   height:95%;
   margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 html {
