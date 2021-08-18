@@ -35,7 +35,7 @@ const hj_contents = [
     ["최현준", "C++ 알고리즘 문제 1일 2문제 풀기<br/>Andrew Ng AI 강의 4주치 수강<br/>'C Programming' 학습<br/>노마드 코더 SCSS 수강<br/>정보처리기능사 자격증 Part1 학습", "[TEXTI] HTML/CSS/JS 코드 개선", FAIL_SIGN, "벌금 미수납"],
     ["최현준", "다함께 알고리즘 스터디<br/>노마드 코더 SCSS 수강<br/>딥러닝 강의 수강<br/>미적분학 복습", "[TEXTI] HTML/CSS/JS 코드 개선<br/>[Friday-Page] HTML/CSS/JS 코드 개선", FAIL_SIGN, "벌금 미수납"],
     ["최현준", "다함께 알고리즘 스터디<br/>노마드 코더 SCSS 완강<br/>자바스크립트 강의 훑기<br/>미적분학 복습", "[TEXTI] JS로 JJALB(짧) 제작", FAIL_SIGN, "벌금 미수납"],
-    ["최현준", "다함께 알고리즘 스터디<br/>노마드 코더 JS 수강(그림판/줌)<br/>노마드 코더 SCSS 클론 코딩 실습<br/>미적분학 복습<br/>정보처리기능사 준비<br/>C Programming 6~10", "[TEXTI] JJALB(짧) 보완 및 출시", UNDEFINED_SIGN, ""]];
+    ["최현준", "다함께 알고리즘 스터디<br/>노마드 코더 JS 수강(그림판/줌)<br/>노마드 코더 SCSS 클론 코딩 실습<br/>미적분학 복습<br/>정보처리기능사 준비<br/>C Programming 6~10", "<del>[TEXTI] JJALB(짧) 보완</del><br/> [TEXTI] JJALB(짧) 홍보하기", UNDEFINED_SIGN, ""]];
 
 // ===== 여기까지 수정부분
 
