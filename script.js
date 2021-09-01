@@ -25,10 +25,10 @@ const dy_contents = [
 
 const mg_contents = [
     ["전민규", "'밑바닥부터 시작하는 딥러닝 1' 훑기<br/>딥러닝 강의 1일 1강씩 수강", "[TEXTI] 서버 내부의 정적 파일(CSS 등) 참조 가능하도록 수정", FAIL_SIGN, ""],
-    ["전민규", "C++ 알고리즘 문제 1일 2문제 풀기<br/>딥러닝 강의 1일 1강씩 수강", "[TEXTI] 단어 변경 후 조사 자동으로 변경<br/>[TEXTI] 단어 변경 후 남은 자음 자동으로 결합", FAIL_SIGN, "벌금 미수납"],
+    ["전민규", "C++ 알고리즘 문제 1일 2문제 풀기<br/>딥러닝 강의 1일 1강씩 수강", "[TEXTI] 단어 변경 후 조사 자동으로 변경<br/>[TEXTI] 단어 변경 후 남은 자음 자동으로 결합", FAIL_SIGN, ""],
     ["전민규", "다함께 알고리즘 스터디<br/>딥러닝 강의 수강", "[TEXTI] UI 수정", SUCCESS_SIGN, ""],
-    ["전민규", "다함께 알고리즘 스터디<br/>Reactive Native 책 읽기", "", FAIL_SIGN, "벌금 미수납"],
-    ["전민규", "다함께 알고리즘 스터디<br/>Reactive Native 책 읽기", "[TEXTI] 구름IDE-Github 연동 설정", FAIL_SIGN, "벌금 미수납"]];
+    ["전민규", "다함께 알고리즘 스터디<br/>Reactive Native 책 읽기", "", FAIL_SIGN, ""],
+    ["전민규", "다함께 알고리즘 스터디<br/>Reactive Native 책 읽기", "[TEXTI] 구름IDE-Github 연동 설정", FAIL_SIGN, ""]];
 
 const hj_contents = [
     ["최현준", "'C Programming' 1일 1챕터 학습<br/>POCU 공학용 수학 몰아 듣기<br/>노마드 코더 자바스크립트 기초 파트 수강<br/>Andrew Ng AI 강의 4주치 몰아 듣기", "[TEXTI] HTML 코드에서 난잡한 부분 CSS, JS 파일로 분리", FAIL_SIGN, ""],
